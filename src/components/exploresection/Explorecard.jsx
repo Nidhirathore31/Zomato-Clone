@@ -41,17 +41,6 @@ const Explorecard = ({restaurant}) =>{
                 </div>}
               {approxPrice && <div className="approxPrice">{approxPrice}</div>}
            </div>
-           {/* {bottomContainers &&  (
-           <div>
-            <div className="card-seprator"></div>
-                <div className="explore-bottom">
-                    <img src={bottomContainers.image?.url}
-                     alt={bottomContainers[0]?.text} 
-                      style={{height:'18px'}}/>
-                      <div className="res-bottom-text">{bottomContainers[0]?.text}</div>
-                </div>
-            
-           </div>)} */}
         </div>
         </>
     )
